@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://circular.pantrypoints.com/"
+baseURL = "https://circular-8qr.pages.dev/"
 title = "Pantrypoints Circle"
 theme = "geeky-hugo"
 languageName = "En"
