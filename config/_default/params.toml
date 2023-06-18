@@ -1,6 +1,6 @@
 #################### default parameters ################################
-favicon = "images/favicon.png"
-logo = "images/logo.png"
+favicon = "logos/c.png"
+logo = "logos/circle.png"
 # use `x` with logo_width, example: "100x".
 # Note: logo_width is not work with .svg file
 logo_width = "150x"
@@ -8,9 +8,9 @@ logo_width = "150x"
 logo_text = "Circle"
 navbar_fixed = false
 description = "Pantrypoints Circle"
-author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
-address = "9567 Turner Trace Apt. BC C3G8A4"
+# author = "Themefisher"
+image = "logos/circle.png" # this image will be used as fallback if a page has no image of its own
+# address = ""
 # mobile = ""
 email = "hello@pantrypoints.com"
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -33,11 +33,11 @@ no_tags_found = "No Tags Found"
 
 mainSections = ["blog", "feeding", "rescues", "seeds", "harvests"]
 # about widget content
-about_widget_content = "Pantrypoints Circle implements the circular economy"
+about_widget_content = "Pantrypoints Circle implements the circular economy sustainably using points instead of money"
 footer_content = "Pantrypoints Circle Footer"
 custom_script= ""
 theme_copyright = true
-copyright = "Copyright Pantrypoints Technologies"
+copyright = "Copyright 2023 Pantrypoints Technologies"
 
 # 404
 error_404_text = "404 Page Not Found!"
@@ -51,18 +51,19 @@ preloader = "" # use jpg, png, svg or gif format.
 # Banner
 [banner]
 enable = true
-title_large = "Welcome **!**"
-title_small = "to Pantrypoints Circle"
+title_large = "The Circular Economy."
+title_small = "In Points."
 image = "images/banner.png"
 background_image = "/images/banner-bg-shape.svg"
-content = "Pantrypoints Circle."
-button_label = "What is Pantrypoints Circle?"
-button_link = "about/"
+# content = "Pantrypoints Circle."
+button_label = "Register in the Waitlist"
+button_link = "https://hub.pantrypoints.com/signup"
 
 # Advertise
 [advertisement]
-image = "images/promotion.png"
-link = "https://gethugothemes.com/"
+image = "banners/sp.png"
+link = "https://www.superphysics.org/"
+
 
 # cookies
 [cookies]
@@ -93,26 +94,27 @@ newsletter_button = "Sign in"
 
 ############################# social site ########################
 [[social]]
+title = "website"
+icon = "fas fa-globe-asia" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.pantrypoints.com/trisactions/circle/"
+
+
+[[social]]
 title = "facebook"
 icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/pantrypoints"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-# [[social]]
-# title = "instagram"
-# icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-# link = "#"
+link = "https://twitter.com/pantrypoints"
 
 # [[social]]
 # title = "github"
 # icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
 # link = "#"
 
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "linkedin"
+# icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"

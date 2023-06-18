@@ -1,7 +1,6 @@
 {{ define "main" }}
 
 <!--=================== about section start ===================-->
-<section class="section">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12">
@@ -13,17 +12,20 @@
       </div>
     </div>
     <div class="row">
-      {{ with .Params.education }}
+      {{ with .Params.people }}
       {{ if .enable }}
       <div class="col-md-6 mb-4 mb-md-0">
         <div class="p-4 border rounded">
           <h2 class="h4 mb-5 title-border">{{ .title | markdownify }}</h2>
           <div class="row">
-            {{ range .education_list }}
+            {{ range .list }}
             <div class="col-md-6 mb-3">
               <h4 class="h5 mb-2">{{ .name | markdownify }}</h4>
-              <p>{{.content | markdownify}}</p>
+              {{ partial "image.html" (dict "Src" .ava "Alt" .content "Class" "img-fluid mb-5 w-50 rounded-circle" ) }}
             </div>
+            <div class="col-md-6 mb-3">
+              <p>{{.content | markdownify}}</p>
+            </div>            
             {{ end }}
           </div>
         </div>
@@ -47,7 +49,6 @@
       {{ end }}
     </div>
   </div>
-</section>
 <!--=================== about section end ===================-->
 
 {{ end }}

@@ -4,7 +4,10 @@
   {{ if $imagePath }}
   <div class="mb-4 position-relative">
     {{ partial "image.html" (dict "Src" $imagePath "Alt" .Title "Class" "img-fluid w-100 rounded-4" ) }}
+    
+
     <ul class="list-inline card-badge">
+
       {{ range .Params.categories }}
       <li class="list-inline-item">
         <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}/" class="badge badge-primary py-1">{{. | title}}</a>
@@ -12,6 +15,7 @@
       {{ end }}
     </ul>
   </div>
+
   {{ else }}
   <div class="mb-4">
     {{ range .Params.categories }}
@@ -26,7 +30,7 @@
     <ul class="list-inline card-meta d-flex align-items-center mb-3">
       <li class="list-inline-item d-flex align-items-center">
         <i class="fas fa-user me-2"></i>
-        <a href="{{`about` | relLangURL}}/">{{site.Params.author}}</a>
+        <a href="{{`about` | relLangURL}}/">{{ .Params.author }}</a>
       </li>
       <li class="list-inline-item d-flex align-items-center">
         <i class="fas fa-calendar me-2"></i>

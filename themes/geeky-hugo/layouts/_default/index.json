@@ -1,6 +1,6 @@
 {{ $.Scratch.Add "index" slice }}
-{{ range where site.RegularPages "Section" "in" (slice "feeding" "blog" "news" "seeds" "harvests" "rescues") }}
 
+{{- range (where site.RegularPages "Section" "in" site.Params.mainSections) -}}
 
 {{ $date:= time.Format ":date_long" .PublishDate }}
 

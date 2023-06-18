@@ -1,39 +1,45 @@
 ---
 title: "About Pantrypoints Circle"
-description: "Pantrypoints Circle is a circular economy system of Pantrypoints "
-image: "images/author.png"
+description: "Pantrypoints Circle is a circular economy system of Pantrypoints"
+image: "banners/foodwaste.jpg"
 layout: "about"
 
 
-education:
+people:
   enable: true
-  title: "Projects"
-  education_list:
-  - name: "Southeast"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-  - name: "Northeast"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-  - name: "Easteast University"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-  - name: "Southeast"
-    content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
+  title: "People"
+  list:
+  - name: "Juan"
+    ava: "avatars/jun.jpg"
+    content: "Juan is the founder of Pantrypoints"
+  - name: "Jose"
+    ava: "avatars/jose.jpg"  
+    content: "Jose is the head of SCENAC, a senior citizen's organization"
+  - name: "Aster"
+    ava: "avatars/aster.jpg"  
+    content: "Aster is the owner of Carpi Island Vegan Cafe"
+  - name: "Lam"
+    ava: "avatars/lam.jpg"  
+    content: "Lam supports the team, from Vietnam"
 
 # experience
 experience:
   enable: true
-  title: "Work Experience"
+  title: "What We Do"
   experience_list:
-  - "Best Writer Award"
-  - "Best New Newel"
-  - "Best Book"
-  - "Best Article"
-  - "Best New Newel"
-  - "Best New Newel"
-  - "Best Book"
-  - "Best Article"
-  - "Best New Newel"
-  - "Best Book"
-
+  - "Food Rescue"
+  - "Seed Rescue"
+  - "Plastic Waste Rescue"
+  - "Mass Feeding"
+  - "Donation and Relief Drives"
+  - "Advocacy on Environmentalism and Healthy Eating"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi amet, ultrices scelerisue cras. Tincidunt hendrerit egestas venenatis risus sit nunc. Est esglit non in ipsum lect;aaus adipiscing et enim porttitor. Dui ultrices et volud eetpat nunc, turpis rutrum elit vestibululm ipsum. Arcu fringilla duis vitae mos dsdllis duicras interdum purus cursus massa metus. Acc umsan felaais, egsdvet nisi, viverra turpis fermentum sit suspf bafedfb ndisse fermentum consectetur. Facilisis feugiat trisique orci tempor sed masd fbsssa tristique ultrices sodales. Augue est sapien elementum facilisis. Enim tincidnt cras interdum purus  ndisse.  morbi quis nunc.
+Pantrypoints Circle is a circular economy system of Pantrypoints through the following activities:
+
+1. Food rescue (Get unsold, unexpired food)
+2. Barter the food with businesses
+3. Donate the remaining to charities
+4. Compost the rest for planting crops
+5. Harvest the crops and repeat Step 2
+

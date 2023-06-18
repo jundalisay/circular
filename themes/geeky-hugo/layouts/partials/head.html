@@ -21,3 +21,48 @@
 <meta name="description" content="{{ .Params.Description | default site.Params.description }}">
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
+<!-- favicon -->
+{{ partialCached "favicon" . }}
+
+
+<!-- manifest -->
+{{ partialCached "manifest" . }}
+
+
+<!-- site verifications -->
+{{ partialCached "site-verifications.html" . }}
+
+
+<!-- opengraph and twitter card -->
+{{ partial "basic-seo.html" . }}
+
+<!-- custom script -->
+{{ site.Params.custom_script | safeHTML}}
+
+
+<!-- google analytics -->
+{{ template "_internal/google_analytics.html" . }}
+
+
+<!-- google tag manager -->
+{{ partialCached "gtm.html" . }}
+
+
+<!-- matomo analytics -->
+{{ partialCached "matomo-analytics.html" . }}
+
+
+<!--  Baidu analytics -->
+{{ partialCached "baidu-analytics.html" . }}
+
+
+<!-- Plausible Analytics -->
+{{ partialCached "plausible-analytics.html" . }}
+
+
+<!-- Counter Analytics -->
+{{ partialCached "counter-analytics.html" . }}
+
+
+<!-- Crisp Chat -->
+{{ partialCached "crisp-chat.html" . }}
