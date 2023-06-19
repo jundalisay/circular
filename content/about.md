@@ -44,9 +44,13 @@ experience:
 
 Pantrypoints Circle is a circular economy system of Pantrypoints through the following activities:
 
-1. Food rescue (Get unsold, unexpired food)
-2. Barter the food with businesses
-3. Donate the remaining to charities
-4. Compost the rest for planting crops
-5. Harvest the crops and repeat Step 2
+**Step 1.** Food rescue (Get unsold, unexpired food)
+
+**Step 2.** Barter the food with businesses
+
+**Step 3.** Donate the remaining to charities
+
+**Step 4.** Compost the rest for planting crops
+
+**Step 5.** Harvest the crops and repeat Step 2
 
