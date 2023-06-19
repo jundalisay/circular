@@ -37,7 +37,7 @@ about_widget_content = "Pantrypoints Circle implements the circular economy sust
 footer_content = "Let's End Food Waste and Involuntary Hunger for Good!"
 custom_script= ""
 theme_copyright = true
-copyright = "Copyright 2023 Pantrypoints Technologies"
+copyright = "Copyright 2023 | Pantrypoints Technologies"
 
 # 404
 error_404_text = "404 Page Not Found!"
@@ -86,9 +86,9 @@ enable = false
 newsletter_title = "Stay Updated"
 newsletter_invitation = "Join Pantrypoints Circle"
 newsletter_placeholder = "Type And Hit Enter"
-newsletter_reminder_a = "By Signing Up, You Agree To"
+newsletter_reminder_a = "Check out our"
 newsletter_reminder_b = "Privacy Policy"
-newsletter_button = "Sign in"
+newsletter_button = "Send"
 # mailchimp subsciption
 # mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 # mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
