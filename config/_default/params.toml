@@ -34,7 +34,7 @@ no_tags_found = "No Tags Found"
 mainSections = ["blog", "feeding", "rescues", "seeds", "harvests"]
 # about widget content
 about_widget_content = "Pantrypoints Circle implements the circular economy sustainably using points instead of money"
-footer_content = "Pantrypoints Circle Footer"
+footer_content = "Let's End Food Waste and Involuntary Hunger for Good!"
 custom_script= ""
 theme_copyright = true
 copyright = "Copyright 2023 Pantrypoints Technologies"
@@ -55,9 +55,11 @@ title_large = "The Circular Economy."
 title_small = "In Points."
 image = "images/banner.png"
 background_image = "/images/banner-bg-shape.svg"
-# content = "Pantrypoints Circle."
-button_label = "Register in the Waitlist"
+content = "Try the Circle app, join food rescues and feeding programs, or donate to a charity."
+button_label = "App: Register in the Waitlist"
 button_link = "https://hub.pantrypoints.com/signup"
+button_label2 = "Join or Donate"
+button_link2 = "/contact/"
 
 # Advertise
 [advertisement]

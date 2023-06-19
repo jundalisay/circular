@@ -13,7 +13,8 @@
         {{ with .title_small }}<h2 class="h2 fw-normal mb-4">{{ . | markdownify}}</h2>{{ end }}
         <p class="mb-4 fs-6 text-light-600">{{.content | markdownify}}</p>
         {{ if .button_label }}
-        <a href="{{ .button_link | absURL }}" class="btn btn-primary">{{ .button_label }}</a>
+          <a href="{{ .button_link | absURL }}" class="btn btn-primary">{{ .button_label }}</a>
+          <a href="{{ .button_link2 | absURL }}" class="btn btn-outline-secondary">{{ .button_label2 }}</a>          
         {{ end }}
       </div>
       {{ with .image }}
