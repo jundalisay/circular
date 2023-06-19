@@ -81,7 +81,7 @@ sidebar = ["about", "categories", "recent-post", "newsletter"]
 # Subscription
 [subscription]
 enable = false
-newsletter_title = "Newsletter"
+newsletter_title = "Stay Updated"
 newsletter_invitation = "Join Pantrypoints Circle"
 newsletter_placeholder = "Type And Hit Enter"
 newsletter_reminder_a = "By Signing Up, You Agree To"
