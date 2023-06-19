@@ -1,4 +1,9 @@
-<!-- DNS preconnect -->
+
+      {{ with .Params.experience }}
+      {{ if .enable }}
+
+
+      <!-- DNS preconnect -->
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="preconnect" href="//ajax.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">

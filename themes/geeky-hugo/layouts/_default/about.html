@@ -37,20 +37,21 @@
       {{ end }}
       {{ end }}
 
-      {{ with .Params.experience }}
-      {{ if .enable }}
       <div class="col-md-6">
-        <div class="border rounded p-4">
-          <h2 class="mb-5 h4 title-border">{{ .title | markdownify }}</h2>
+        <div class="border rounded p-4 mb-4">
+          <h2 class="mb-5 h4 title-border">{{ .Params.experience.title | markdownify }}</h2>
           <ul class="list-styled" style="columns:2">
-            {{ range .experience_list }}
-            <li>{{ . | markdownify}}</li>
+            {{ range .Params.experience.experience_list }}
+             <li>{{ . | markdownify}}</li>
             {{ end }}
           </ul>
         </div>
+        <div class="border rounded">
+          <a href="{{ .Params.link | absLangURL}}">
+            <img class="img-fluid w-100" src="{{ .Params.ad }}" alt="Diet-Disease App">
+          </a>
+        </div>        
       </div>
-      {{ end }}
-      {{ end }}
     </div>
   </div>
 <!--=================== about section end ===================-->

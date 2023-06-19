@@ -27,11 +27,11 @@ read_more_button = "Read more"
 previous_button = "Previous"
 next_button = "Next"
 related_posts = "Related Posts"
-showing_posts = "Showing Post From"
+showing_posts = ""
 no_categories_found = "No Categories Found"
 no_tags_found = "No Tags Found"
 
-mainSections = ["blog", "feeding", "rescues", "seeds", "harvests"]
+mainSections = ["blog", "feeding", "food-rescues", "plastic-rescues", "seed-rescues", "harvests"]
 # about widget content
 about_widget_content = "Pantrypoints Circle implements the circular economy sustainably using points instead of money"
 footer_content = "Let's End Food Waste and Involuntary Hunger for Good!"
@@ -63,8 +63,8 @@ button_link2 = "/contact/"
 
 # Advertise
 [advertisement]
-image = "banners/sp.png"
-link = "https://www.superphysics.org/"
+image = "banners/dd.png"
+link = "https://play.google.com/store/apps/details?id=com.pantrypoints.diet"
 
 
 # cookies
@@ -84,8 +84,8 @@ sidebar = ["about", "categories", "recent-post", "newsletter"]
 [subscription]
 enable = false
 newsletter_title = "Stay Updated"
-newsletter_invitation = "Join Pantrypoints Circle"
-newsletter_placeholder = "Type And Hit Enter"
+newsletter_invitation = "Join Pantrypoints Circle by sending your email or contact number with country code below"
+newsletter_placeholder = "john@company.com"
 newsletter_reminder_a = "Check out our"
 newsletter_reminder_b = "Privacy Policy"
 newsletter_button = "Send"

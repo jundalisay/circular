@@ -3,6 +3,8 @@ title: "About Pantrypoints Circle"
 description: "Pantrypoints Circle is a circular economy system of Pantrypoints"
 image: "banners/foodwaste.jpg"
 layout: "about"
+link: "https://www.superphysics.org"
+ad: "/banners/sp.png"
 
 
 people:
@@ -36,6 +38,8 @@ experience:
   - "Mass Feeding"
   - "Donation and Relief Drives"
   - "Advocacy on Environmentalism and Healthy Eating"
+
+
 ---
 
 Pantrypoints Circle is a circular economy system of Pantrypoints through the following activities:
