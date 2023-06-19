@@ -16,8 +16,8 @@ full_name_placeholder: "Juan de la Cruz"
 email_title: "Email Address"
 email_placeholder: "example@email.com"
 
-subject_title: "Subject"
-subject_placeholder: "Willing to donate"
+country_title: "City and Country "
+country_placeholder: "New York, USA"
 
 content_title: "Your Message Here"
 content_placeholder: "Hello I’m Mr ‘x’ from....."

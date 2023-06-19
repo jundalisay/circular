@@ -1,4 +1,5 @@
 {{ define "main" }}
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 <!--=================== contact section start ===================-->
 <section class="contact pt-5">
@@ -30,15 +31,23 @@
               <input type="email" name="email" class="form-control" id="email[email]" placeholder="{{ .Params.email_placeholder | markdownify }}" required>
             </div>
             <div class="form-group">
-              <label for="name" class="form-label">{{ .Params.subject_title | markdownify }}<small> *</small></label>
-              <input type="text" class="form-control" name="email[address]" id="subject" placeholder="{{ .Params.subject_placeholder | markdownify }}"
+              <label for="country" class="form-label">{{ .Params.country_title | markdownify }}<small> *</small></label>
+              <input type="text" class="form-control" name="email[country]" id="subject" placeholder="{{ .Params.country_placeholder | markdownify }}"
                 required>
             </div>
+
             <div class="form-group">
               <label for="message" class="form-label">{{ .Params.content_title | markdownify }}<small> *</small></label>
               <textarea class="form-control" placeholder="{{ .Params.content_placeholder | markdownify }}" id="message"
                 name="email[content]" required></textarea>
             </div>
+
+            <input name="email[address]" id="source" type="hidden" value="{{ .Permalink }}">                 
+
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAACSFxz2kpRL50KI" data-theme="light"></div>
+            <!-- data-callback="submitUserForm" -->
+            <div class="checkbox mb-3"></div>      
+
             <button type="submit" class="btn btn-primary">{{ .Params.button_text | markdownify }}</button>
           </form>
         </div>
