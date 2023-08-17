@@ -13,13 +13,13 @@
         {{ with .title_small }}<h2 class="h2 fw-normal mb-4">{{ . | markdownify}}</h2>{{ end }}
         <p class="mb-4 fs-6 text-light-600">{{.content | markdownify}}</p>
         {{ if .button_label }}
-          <a href="{{ .button_link | absURL }}" class="btn mb-2 btn-primary">{{ .button_label }}</a>
-          <a href="{{ .button_link2 | absURL }}" class="btn mb-2 btn-outline-secondary">{{ .button_label2 }}</a>          
+          <a href="{{ .button_link | absURL }}" class="btn btn-primary my-2">{{ .button_label }}</a>
+          <a href="{{ .button_link2 | absURL }}" class="btn btn-outline-secondary my-2">{{ .button_label2 }}</a>          
         {{ end }}
       </div>
       {{ with .image }}
       <div class="col-lg-6 col-sm-6 col-9 mx-auto mb-5 mb-lg-0">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nMTkNY86zBg" title="Pantrypoints Circle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HFqltUWhzfE" title="Pantrypoints Circle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       {{ end }}
     </div>
