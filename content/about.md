@@ -32,9 +32,9 @@ experience:
   enable: true
   title: "What We Do"
   experience_list:
+  - "Moneyless Economic System Implementation"
   - "Food Rescue"
   - "Seed Rescue"
-  - "Plastic Waste Rescue"
   - "Mass Feeding"
   - "Donation and Relief Drives"
   - "Advocacy on Environmentalism and Healthy Eating"
@@ -46,7 +46,7 @@ Pantrypoints Circle is a circular economy system of Pantrypoints through the fol
 
 **Step 1.** Food rescue (Get unsold, unexpired food)
 
-**Step 2.** Barter the food with businesses
+**Step 2.** Barter the food with businesses using our moneyless system
 
 **Step 3.** Donate the remaining to charities
 

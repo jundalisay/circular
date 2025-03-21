@@ -26,15 +26,21 @@ weight = 9
 
   [[main]]
   parent = "About"
+  name = "Items"
+  url = "/items/"
+  weight = 92
+
+  [[main]]
+  parent = "About"
   name = "Tags"
   url = "/tags/"
-  weight = 91
+  weight = 95
 
   [[main]]
   parent = "About"
   name = "Categories"
   url = "/categories/"
-  weight = 92
+  weight = 96
 
 
 
